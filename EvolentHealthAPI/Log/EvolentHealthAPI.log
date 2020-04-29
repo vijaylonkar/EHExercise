@@ -1,0 +1,1331 @@
+2020-04-27 21:38:20,149 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-27 21:38:20,161 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-27 21:38:20,161 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-27 21:38:20,167 INFO 12 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-27 21:38:20,169 INFO 12 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-27 21:38:20,204 INFO 13 Repository.Services.ContactSQLDB - End GetContacts:-1
+2020-04-27 21:38:20,205 INFO 13 EvolentHealthAPICore.Services.Core - End GetContacts:-1
+2020-04-27 21:38:20,205 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-1
+2020-04-27 21:40:09,365 INFO 22 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-27 21:40:09,377 INFO 22 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-27 21:40:09,378 INFO 22 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-27 21:40:09,379 INFO 22 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-27 21:40:09,381 INFO 22 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-27 21:40:09,388 INFO 14 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-27 21:40:09,390 INFO 14 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-27 21:40:09,390 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-27 21:53:36,730 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-27 21:53:36,743 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-27 21:53:36,743 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-27 21:53:36,745 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-27 21:53:36,747 INFO 10 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-27 21:53:49,849 ERROR 11 Repository.Services.ContactSQLDB - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 53
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 56
+2020-04-27 21:53:49,854 INFO 11 Repository.Services.ContactSQLDB - End AddContact:-13
+2020-04-27 21:53:49,874 ERROR 11 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 39
+2020-04-27 21:53:49,875 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-27 21:53:49,875 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-27 21:53:52,591 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-27 21:53:52,591 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-27 21:53:52,592 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-27 21:53:52,592 INFO 11 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-27 21:53:52,592 INFO 11 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-27 21:54:19,598 ERROR 11 Repository.Services.ContactSQLDB - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 53
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 56
+2020-04-27 21:54:19,598 INFO 11 Repository.Services.ContactSQLDB - End AddContact:-13
+2020-04-27 21:54:19,635 ERROR 11 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 39
+2020-04-27 21:54:19,635 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-27 21:54:19,635 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-27 21:55:47,654 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-27 21:55:47,669 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-27 21:55:47,669 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-27 21:55:47,671 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-27 21:55:47,675 INFO 10 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-27 21:56:15,799 ERROR 16 Repository.Services.ContactSQLDB - Exception in AddContact
+System.Data.SqlClient.SqlException (0x80131904): Error in sproc_AddContact-->Line: 12--Message: Email Address already exists
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 70
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 56
+ClientConnectionId:edb075a5-ad85-4d8e-98d8-612c2e64822f
+Error Number:50000,State:1,Class:16
+2020-04-27 21:56:15,805 INFO 16 Repository.Services.ContactSQLDB - End AddContact:-13
+2020-04-27 21:56:15,826 ERROR 16 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__2.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 39
+2020-04-27 21:56:15,827 INFO 16 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-27 21:56:15,827 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-27 21:57:12,039 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-27 21:57:12,053 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-27 21:57:12,054 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-27 21:57:12,055 INFO 11 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-27 21:57:12,057 INFO 11 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-27 21:57:45,804 INFO 11 Repository.Services.ContactSQLDB - End AddContact:-1
+2020-04-27 21:57:45,805 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:-1
+2020-04-27 21:57:45,805 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-1
+2020-04-27 21:58:36,302 INFO 17 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-27 21:58:36,314 INFO 17 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-27 21:58:36,314 INFO 17 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-27 21:58:36,316 INFO 17 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-27 21:58:36,318 INFO 17 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-27 21:58:36,332 INFO 15 Repository.Services.ContactSQLDB - End AddContact:0
+2020-04-27 21:58:36,332 INFO 15 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-27 21:58:36,333 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-27 22:06:35,445 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-27 22:06:35,457 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-27 22:06:35,458 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-27 22:06:35,458 INFO 9 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-27 22:06:35,461 INFO 9 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-27 22:06:35,498 INFO 9 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-27 22:06:35,539 INFO 11 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-27 22:06:35,539 INFO 11 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-27 22:06:35,539 INFO 11 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-27 22:06:35,539 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-27 22:07:47,713 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-27 22:07:47,725 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-27 22:07:47,726 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-27 22:07:47,727 INFO 9 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-27 22:07:47,730 INFO 9 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-27 22:07:54,297 INFO 9 Repository.Services.ContactSQLDB - End EditContact:0
+2020-04-27 22:07:55,431 INFO 9 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-27 22:07:55,431 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-27 22:10:58,817 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-27 22:10:58,830 INFO 9 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-27 22:10:58,830 INFO 9 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-27 22:10:58,831 INFO 9 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-27 22:10:58,834 INFO 9 Repository.Services.ContactSQLDB - Begin DeleteContact
+2020-04-27 22:11:05,806 INFO 10 Repository.Services.ContactSQLDB - End DeleteContact:0
+2020-04-27 22:11:05,807 INFO 10 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-27 22:11:05,807 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-28 10:05:52,341 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 10:05:52,359 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 10:05:52,359 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 10:05:52,360 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 10:05:52,363 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 10:05:52,405 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 10:05:52,407 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 10:05:52,407 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 11:52:47,467 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 11:52:47,493 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 11:52:47,493 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 11:52:47,495 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 11:52:47,499 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 11:52:47,587 INFO 10 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 11:52:47,589 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 11:52:47,589 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 11:53:38,745 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 11:53:38,775 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 11:53:38,776 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 11:53:38,781 INFO 16 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 11:53:38,786 INFO 16 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 11:53:38,790 INFO 16 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 11:53:39,065 INFO 16 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 11:53:39,065 INFO 16 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 11:53:39,067 ERROR 16 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Data.DataSet'.
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 133
+2020-04-28 11:53:39,077 INFO 16 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 11:53:39,077 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 12:02:49,288 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 12:02:49,312 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 12:02:49,313 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 12:02:49,315 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 12:02:49,320 INFO 9 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 12:02:49,404 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 12:02:56,034 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 12:02:56,034 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:05:15,225 INFO 8 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:05:15,239 INFO 8 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:05:15,239 INFO 8 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:05:15,240 INFO 8 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:05:15,242 INFO 8 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:05:15,243 INFO 8 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:05:15,365 INFO 8 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:05:15,365 INFO 8 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 13:05:26,962 ERROR 8 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 134
+2020-04-28 13:05:26,966 INFO 8 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:05:26,967 INFO 8 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:06:34,202 INFO 6 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:06:34,233 INFO 6 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:06:34,233 INFO 6 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:06:34,235 INFO 6 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:06:34,239 INFO 6 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:06:34,240 INFO 6 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:06:34,482 INFO 6 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:06:34,482 INFO 6 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 13:07:11,786 INFO 6 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:07:11,787 INFO 6 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:08:08,950 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:08:08,979 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:08:08,979 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:08:08,982 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:08:08,986 INFO 9 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 13:08:09,050 INFO 9 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 13:08:25,108 ERROR 9 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 132
+2020-04-28 13:08:25,119 INFO 9 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:08:25,129 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:08:30,760 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:08:30,760 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:08:30,760 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:08:30,760 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:08:30,760 INFO 9 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 13:08:30,768 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 13:10:35,081 ERROR 11 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 132
+2020-04-28 13:10:35,082 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:10:35,082 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:14:32,311 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:14:32,341 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:14:32,341 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:14:32,343 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:14:32,346 INFO 9 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:14:32,348 INFO 9 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:14:32,586 INFO 9 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:17:15,552 ERROR 9 Repository.Services.ContactJsonDB - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at Repository.Services.ContactJsonDB.<GetContacts>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactJsonDB.cs:line 86
+2020-04-28 13:17:15,560 INFO 9 Repository.Services.ContactJsonDB - End GetContacts:-13
+2020-04-28 13:17:15,619 ERROR 9 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 133
+2020-04-28 13:17:15,621 INFO 9 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:17:15,621 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:17:20,629 INFO 15 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:17:20,653 INFO 15 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:17:20,654 INFO 15 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:17:20,656 INFO 15 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:17:20,659 INFO 15 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:17:20,664 INFO 15 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:17:20,958 INFO 15 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:17:20,960 ERROR 15 Repository.Services.ContactJsonDB - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at Repository.Services.ContactJsonDB.<GetContacts>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactJsonDB.cs:line 86
+2020-04-28 13:17:20,969 INFO 15 Repository.Services.ContactJsonDB - End GetContacts:-13
+2020-04-28 13:17:20,969 ERROR 15 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 133
+2020-04-28 13:17:20,971 INFO 15 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:17:20,971 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:17:26,914 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:17:26,914 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:17:26,914 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:17:26,914 INFO 14 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:17:26,914 INFO 14 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:17:26,914 INFO 14 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:17:26,915 INFO 14 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:17:26,915 ERROR 14 Repository.Services.ContactJsonDB - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at Repository.Services.ContactJsonDB.<GetContacts>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactJsonDB.cs:line 86
+2020-04-28 13:17:26,915 INFO 14 Repository.Services.ContactJsonDB - End GetContacts:-13
+2020-04-28 13:17:26,915 ERROR 14 EvolentHealthAPICore.Services.Core - Exception in GetContacts
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[EvolentHealthLib.BusinessData.ContactData]'.
+   at EvolentHealthAPICore.Services.Core.<GetContacts>d__6.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 133
+2020-04-28 13:17:26,915 INFO 14 EvolentHealthAPICore.Services.Core - End GetContacts:-13
+2020-04-28 13:17:26,915 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:-13
+2020-04-28 13:21:41,532 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:21:41,558 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:21:41,559 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:21:41,560 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:21:41,564 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:21:41,566 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:21:58,014 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:22:19,952 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 13:22:26,838 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:22:26,838 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:23:26,874 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:23:26,901 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:23:26,901 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:23:26,903 INFO 14 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:23:26,906 INFO 14 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:23:26,908 INFO 14 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:23:27,128 INFO 14 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:23:27,321 INFO 14 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 13:23:27,322 INFO 14 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:23:27,322 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:24:05,229 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:24:05,268 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:24:05,268 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:24:05,271 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:24:05,275 INFO 11 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 13:24:05,395 INFO 10 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 13:24:05,395 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:24:05,396 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:32:58,516 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:32:58,551 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:32:58,551 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:33:02,278 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:33:18,776 INFO 9 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 13:33:20,179 INFO 10 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 13:33:20,180 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:33:20,180 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 13:34:16,325 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 13:34:16,362 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 13:34:16,362 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 13:34:22,080 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 13:34:33,334 INFO 11 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 13:34:33,335 INFO 11 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 13:34:33,639 INFO 11 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 13:34:33,843 INFO 11 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 13:34:33,845 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 13:34:33,845 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:17:24,093 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:17:24,122 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:17:24,123 INFO 9 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:17:24,125 INFO 9 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:17:24,128 INFO 9 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:17:24,129 INFO 9 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:17:24,363 INFO 9 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:17:24,544 INFO 9 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:17:24,545 INFO 9 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:17:24,545 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:17:50,237 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:17:50,260 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:17:50,261 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:17:50,263 INFO 13 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:17:50,275 INFO 13 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:17:50,337 INFO 9 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:17:50,338 INFO 9 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:17:50,338 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:18:36,351 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-28 14:18:36,376 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-28 14:18:36,377 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-28 14:18:36,379 INFO 10 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-28 14:18:36,384 INFO 10 Repository.Services.ContactSQLDB - Begin DeleteContact
+2020-04-28 14:18:36,466 INFO 11 Repository.Services.ContactSQLDB - End DeleteContact:0
+2020-04-28 14:18:36,467 INFO 11 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-28 14:18:36,468 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-28 14:18:42,902 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:18:42,903 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:18:42,903 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:18:42,905 INFO 16 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:18:42,908 INFO 16 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:18:42,918 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:18:42,918 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:18:42,918 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:19:22,093 INFO 17 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:19:22,094 INFO 17 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:19:22,094 INFO 17 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:19:22,096 INFO 17 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:19:22,100 INFO 17 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-28 14:19:22,114 INFO 10 Repository.Services.ContactSQLDB - End EditContact:0
+2020-04-28 14:19:22,114 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-28 14:19:22,114 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-28 14:19:33,162 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:19:33,162 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:19:33,162 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:19:33,162 INFO 12 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:19:33,162 INFO 12 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:19:33,174 INFO 10 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:19:33,174 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:19:33,174 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:20:22,321 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-28 14:20:22,322 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-28 14:20:22,322 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-28 14:20:22,323 INFO 13 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-28 14:20:22,326 INFO 13 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-28 14:20:22,336 INFO 14 Repository.Services.ContactSQLDB - End AddContact:0
+2020-04-28 14:20:22,336 INFO 14 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-28 14:20:22,336 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-28 14:20:26,834 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:20:26,834 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:20:26,834 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:20:26,834 INFO 13 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:20:26,834 INFO 13 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:20:26,839 INFO 8 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:20:26,839 INFO 8 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:20:26,839 INFO 8 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:21:06,764 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:21:06,788 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:21:06,789 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:21:06,791 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:21:06,795 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:21:06,803 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:21:07,046 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:21:07,122 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:21:07,122 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:21:07,122 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:25:15,633 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:25:15,666 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:25:15,666 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:25:15,668 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:25:15,672 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:25:15,676 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:25:16,000 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:25:16,192 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:25:16,193 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:25:16,193 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:25:33,335 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:25:33,335 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:25:33,335 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:25:33,335 INFO 12 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:25:33,335 INFO 12 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:25:33,335 INFO 12 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:25:33,336 INFO 12 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:25:33,336 INFO 12 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:25:33,336 INFO 12 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:25:33,336 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:25:52,713 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-28 14:25:52,714 INFO 13 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-28 14:25:52,714 INFO 13 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-28 14:25:52,716 INFO 13 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-28 14:25:52,718 INFO 13 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-28 14:25:52,724 INFO 13 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-28 14:25:52,762 INFO 11 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-28 14:25:52,762 INFO 11 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-28 14:25:52,762 INFO 11 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-28 14:25:52,762 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-28 14:25:55,988 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:25:55,988 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:25:55,988 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:25:55,988 INFO 14 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:25:55,988 INFO 14 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:25:55,988 INFO 14 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:25:55,988 INFO 14 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:25:55,988 INFO 14 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:25:55,989 INFO 14 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:25:55,989 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:26:23,753 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:26:23,754 INFO 11 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:26:23,754 INFO 11 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:26:23,755 INFO 11 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:26:23,759 INFO 11 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-28 14:26:23,761 INFO 11 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-28 14:26:23,765 INFO 16 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-28 14:26:23,765 INFO 16 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-28 14:26:23,765 INFO 16 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-28 14:26:23,765 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-28 14:27:00,053 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-28 14:27:00,054 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-28 14:27:00,054 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-28 14:27:00,056 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-28 14:27:00,059 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-28 14:27:00,062 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-28 14:27:00,075 INFO 14 Repository.Services.ContactJsonDB - End Add:0
+2020-04-28 14:27:00,075 INFO 14 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-28 14:27:00,076 INFO 14 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-28 14:27:00,076 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-28 14:34:52,447 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-28 14:34:52,479 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-28 14:34:52,480 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-28 14:34:52,482 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-28 14:34:52,487 INFO 10 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-28 14:34:52,540 ERROR 11 Repository.Services.ContactSQLDB - Exception in AddContact
+System.Data.SqlClient.SqlException (0x80131904): Error in sproc_AddContact-->Line: 12--Message: Email Address already exists
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 72
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 52
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<AddContact>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 74
+ClientConnectionId:a34b19b9-067e-4d8d-b335-6761ea354dd3
+Error Number:50000,State:1,Class:16
+2020-04-28 14:34:52,553 INFO 11 Repository.Services.ContactSQLDB - End AddContact:-13
+2020-04-28 14:34:52,553 ERROR 11 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 41
+2020-04-28 14:34:52,556 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-28 14:34:52,556 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-28 14:34:57,518 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:34:57,519 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:34:57,519 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:34:57,521 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:34:57,524 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:34:57,530 INFO 12 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:34:57,531 INFO 12 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:34:57,531 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:35:36,930 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:35:36,955 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:35:36,956 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:35:36,958 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:35:36,969 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:35:37,002 INFO 8 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:35:37,003 INFO 8 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:35:37,003 INFO 8 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:36:19,377 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-28 14:36:19,378 INFO 13 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-28 14:36:19,379 INFO 13 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-28 14:36:19,382 INFO 13 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-28 14:36:19,387 INFO 13 Repository.Services.ContactSQLDB - Begin DeleteContact
+2020-04-28 14:36:19,397 INFO 16 Repository.Services.ContactSQLDB - End DeleteContact:0
+2020-04-28 14:36:19,397 INFO 16 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-28 14:36:19,397 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-28 14:36:23,485 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:36:23,485 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:36:23,485 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:36:23,485 INFO 14 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:36:23,485 INFO 14 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:36:23,488 INFO 12 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:36:23,488 INFO 12 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:36:23,489 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:38:42,299 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:38:42,327 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:38:42,327 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:38:47,383 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:38:47,388 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:39:25,962 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:39:25,963 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:39:25,963 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:39:50,815 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:39:50,846 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:39:50,846 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:39:50,849 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:39:50,854 INFO 10 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:39:50,910 INFO 5 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:39:50,911 INFO 5 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:39:50,911 INFO 5 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:40:30,378 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:40:30,380 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:40:30,380 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:40:30,382 INFO 14 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:40:30,385 INFO 14 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-28 14:40:30,392 ERROR 10 Repository.Services.ContactSQLDB - Exception in EditContact
+System.InvalidOperationException: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 70
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<EditContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 106
+2020-04-28 14:40:30,408 INFO 10 Repository.Services.ContactSQLDB - End EditContact:-13
+2020-04-28 14:40:30,408 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-28 14:40:30,408 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-28 14:41:17,482 INFO 5 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:41:17,514 INFO 5 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:41:17,515 INFO 5 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:41:17,517 INFO 5 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:41:17,522 INFO 5 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-28 14:41:17,548 ERROR 12 Repository.Services.ContactSQLDB - Exception in EditContact
+System.Data.SqlClient.SqlException (0x80131904): Error in sproc_EditContact-->Line: 11--Message: Row with Email Address does not exist
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 71
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<EditContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 106
+ClientConnectionId:89d6943e-edc9-45ba-a283-1f9cac746bf9
+Error Number:50000,State:1,Class:16
+2020-04-28 14:41:17,559 INFO 12 Repository.Services.ContactSQLDB - End EditContact:-13
+2020-04-28 14:41:17,559 INFO 12 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-28 14:41:17,559 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-28 14:41:54,791 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:41:54,791 INFO 13 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:41:54,791 INFO 13 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:41:54,791 INFO 13 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:41:54,791 INFO 13 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-28 14:41:54,795 INFO 11 Repository.Services.ContactSQLDB - End EditContact:0
+2020-04-28 14:41:54,795 INFO 11 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-28 14:41:54,795 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-28 14:42:01,419 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:42:01,421 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:42:01,421 INFO 16 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:42:01,424 INFO 16 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:42:01,427 INFO 16 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:42:01,434 INFO 13 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:42:01,434 INFO 13 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:42:01,434 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:42:33,084 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-28 14:42:33,113 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-28 14:42:33,114 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-28 14:42:33,116 INFO 11 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-28 14:42:33,120 INFO 11 Repository.Services.ContactSQLDB - Begin AddContact
+2020-04-28 14:42:33,198 INFO 12 Repository.Services.ContactSQLDB - End AddContact:0
+2020-04-28 14:42:33,198 INFO 12 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-28 14:42:33,198 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-28 14:42:38,565 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:42:38,566 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:42:38,566 INFO 14 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:42:38,569 INFO 14 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:42:38,572 INFO 14 Repository.Services.ContactSQLDB - Begin GetContacts
+2020-04-28 14:42:38,580 INFO 11 Repository.Services.ContactSQLDB - End GetContacts:0
+2020-04-28 14:42:38,580 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:42:38,580 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:43:34,444 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:43:34,475 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:43:34,476 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:43:34,480 INFO 12 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:43:34,483 INFO 12 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:43:34,488 INFO 12 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:43:34,754 INFO 12 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:43:34,812 INFO 12 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:43:34,813 INFO 12 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:43:34,813 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:43:54,032 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-28 14:43:54,033 INFO 16 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-28 14:43:54,033 INFO 16 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-28 14:43:54,035 INFO 16 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-28 14:43:54,038 INFO 16 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-28 14:43:54,043 INFO 16 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-28 14:43:54,081 INFO 13 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-28 14:43:54,081 INFO 13 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-28 14:43:54,081 INFO 13 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-28 14:43:54,081 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-28 14:44:01,045 INFO 17 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:44:01,046 INFO 17 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:44:01,046 INFO 17 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:44:01,046 INFO 17 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:44:01,046 INFO 17 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:44:01,046 INFO 17 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:44:01,047 INFO 17 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:44:01,047 INFO 17 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:44:01,047 INFO 17 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:44:01,047 INFO 17 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:44:29,116 INFO 15 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 14:44:29,117 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 14:44:29,117 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 14:44:29,119 INFO 15 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 14:44:29,122 INFO 15 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-28 14:44:29,125 INFO 15 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-28 14:44:29,129 INFO 18 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-28 14:44:29,129 INFO 18 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-28 14:44:29,129 INFO 18 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-28 14:44:29,129 INFO 18 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-28 14:44:49,519 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-28 14:44:49,519 INFO 14 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-28 14:44:49,519 INFO 14 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-28 14:44:49,519 INFO 14 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-28 14:44:49,521 INFO 14 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-28 14:44:49,523 INFO 14 Repository.Services.ContactJsonDB - Begin Add
+2020-04-28 14:44:49,537 INFO 17 Repository.Services.ContactJsonDB - End Add:0
+2020-04-28 14:44:49,538 INFO 17 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-28 14:44:49,538 INFO 17 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-28 14:44:49,538 INFO 17 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-28 14:53:06,313 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:53:06,328 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:53:06,328 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:53:06,330 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:53:06,331 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:53:06,332 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:53:06,483 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:53:06,577 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:53:06,577 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:53:06,577 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:55:23,287 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:55:23,301 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:55:23,301 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:55:23,302 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:55:23,304 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:55:23,305 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:55:23,464 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:55:23,548 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:55:23,548 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:55:23,549 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:59:00,403 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:59:00,417 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:59:00,417 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:59:00,418 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:59:00,419 INFO 11 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:59:00,421 INFO 11 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:59:00,567 INFO 11 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:59:00,657 INFO 11 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:59:00,657 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:59:00,657 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 14:59:54,450 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 14:59:54,463 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 14:59:54,464 INFO 12 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 14:59:54,465 INFO 12 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 14:59:54,466 INFO 12 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 14:59:54,468 INFO 12 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 14:59:54,606 INFO 12 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 14:59:54,690 INFO 12 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 14:59:54,691 INFO 12 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 14:59:54,691 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 15:01:13,963 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 15:01:13,977 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 15:01:13,978 ERROR 9 EvolentHealthAPILib.Messages.EditContactRequest - InValid Email Address.
+2020-04-28 15:01:13,978 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 15:01:13,978 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-12
+2020-04-28 15:03:53,014 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 15:03:53,032 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 15:03:53,032 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 15:03:53,033 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 15:03:53,035 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 15:03:53,037 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 15:03:53,185 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 15:03:53,280 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 15:03:53,281 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 15:03:53,281 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 16:14:13,517 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-28 16:14:13,549 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-28 16:14:13,549 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-28 16:14:13,553 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-28 16:14:13,556 INFO 11 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-28 16:14:13,558 INFO 11 Repository.Services.ContactJsonDB - Begin Get
+2020-04-28 16:14:13,913 INFO 11 Repository.Services.ContactJsonDB - End Get:0
+2020-04-28 16:14:14,100 INFO 11 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-28 16:14:14,100 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-28 16:14:14,100 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-28 21:26:04,808 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-28 21:26:04,837 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-28 21:26:04,839 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-28 21:26:04,842 INFO 10 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-28 21:26:04,850 INFO 10 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-28 21:26:04,939 INFO 10 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-28 21:26:05,027 INFO 13 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-28 21:26:05,027 INFO 13 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-28 21:26:05,028 INFO 13 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-28 21:26:05,029 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 09:50:05,610 INFO 17 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 09:50:05,627 INFO 17 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 09:50:05,627 ERROR 17 EvolentHealthAPILib.Messages.DeleteContactRequest - InValid Contact ID.
+2020-04-29 09:50:05,627 INFO 17 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 09:50:05,627 INFO 17 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-12
+2020-04-29 09:50:27,531 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 09:50:27,531 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 09:50:27,531 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 09:50:27,532 INFO 10 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 09:50:27,535 INFO 10 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 09:50:27,544 INFO 10 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 09:50:27,602 INFO 15 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-29 09:50:27,602 INFO 15 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-29 09:50:27,602 INFO 15 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-29 09:50:27,602 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-29 09:51:21,624 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 09:51:21,640 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 09:51:21,640 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 09:51:21,642 INFO 11 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 09:51:21,645 INFO 11 Repository.Services.ContactSQLDB - Begin DeleteContact
+2020-04-29 09:51:21,709 INFO 14 Repository.Services.ContactSQLDB - End DeleteContact:0
+2020-04-29 09:51:21,710 INFO 14 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-29 09:51:21,710 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-29 10:01:12,587 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:01:12,602 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:01:12,603 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:01:12,604 INFO 10 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:01:12,607 INFO 10 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-29 10:01:12,641 ERROR 11 Repository.Services.ContactSQLDB - Exception in EditContact
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sproc_EditContact' expects parameter '@ContactID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 71
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<EditContact>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 89
+ClientConnectionId:1bf84876-7f5a-4064-adcc-38b1a1f6cf18
+Error Number:201,State:4,Class:16
+2020-04-29 10:01:12,657 INFO 11 Repository.Services.ContactSQLDB - End EditContact:-13
+2020-04-29 10:01:12,657 INFO 11 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 10:01:12,657 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 10:01:49,655 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:01:49,670 INFO 16 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:01:49,671 INFO 16 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:01:49,672 INFO 16 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:01:49,675 INFO 16 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-29 10:01:49,687 INFO 12 Repository.Services.ContactSQLDB - End EditContact:0
+2020-04-29 10:01:49,687 INFO 12 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-29 10:01:49,687 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 10:02:06,943 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:02:06,943 INFO 12 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:02:06,943 INFO 12 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:02:06,943 INFO 12 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:02:06,943 INFO 12 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-29 10:02:06,946 ERROR 10 Repository.Services.ContactSQLDB - Exception in EditContact
+System.Data.SqlClient.SqlException (0x80131904): Error in sproc_EditContact-->Line: 12--Message: Row does not exist
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 71
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<EditContact>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 89
+ClientConnectionId:084ba3e0-156d-4420-8052-ec9b878f9ed9
+Error Number:50000,State:1,Class:16
+2020-04-29 10:02:06,954 INFO 10 Repository.Services.ContactSQLDB - End EditContact:-13
+2020-04-29 10:02:06,954 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 10:02:06,954 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 10:02:22,715 INFO 15 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:02:22,716 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:02:22,716 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:02:22,716 INFO 15 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:02:22,716 INFO 15 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-29 10:02:22,717 ERROR 15 Repository.Services.ContactSQLDB - Exception in EditContact
+System.Data.SqlClient.SqlException (0x80131904): Error in sproc_EditContact-->Line: 12--Message: Row does not exist
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Repository.Services.SQLDB.<>c__DisplayClass5_0.<ExecuteSP_NonQuery>b__0() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 71
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.SQLDB.<ExecuteSP_NonQuery>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\SQLDB.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Repository.Services.ContactSQLDB.<EditContact>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\ContactSQLDB.cs:line 89
+ClientConnectionId:084ba3e0-156d-4420-8052-ec9b878f9ed9
+Error Number:50000,State:1,Class:16
+2020-04-29 10:02:22,717 INFO 15 Repository.Services.ContactSQLDB - End EditContact:-13
+2020-04-29 10:02:22,717 INFO 15 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 10:02:22,717 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 10:02:47,351 INFO 15 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:02:47,351 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:02:47,351 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:02:47,351 INFO 15 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:02:47,351 INFO 15 Repository.Services.ContactSQLDB - Begin EditContact
+2020-04-29 10:02:47,353 INFO 16 Repository.Services.ContactSQLDB - End EditContact:0
+2020-04-29 10:02:47,353 INFO 16 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-29 10:02:47,353 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 10:03:45,836 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:03:45,854 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:03:45,855 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:03:45,857 INFO 14 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:03:45,860 INFO 14 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 10:03:45,908 INFO 14 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 10:03:45,954 INFO 22 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-29 10:03:45,954 INFO 22 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-29 10:03:45,954 INFO 22 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-29 10:03:45,954 INFO 22 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 10:06:48,497 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 10:06:48,512 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 10:06:48,513 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 10:06:48,514 INFO 10 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 10:06:48,518 INFO 10 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 10:06:48,567 INFO 10 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 10:06:48,594 ERROR 10 Repository.Services.ContactJsonDB - Exception in Edit
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Edit>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 99
+2020-04-29 10:06:48,600 INFO 10 Repository.Services.ContactJsonDB - End Edit:-13
+2020-04-29 10:06:48,600 INFO 10 Repository.Services.ContactJsonDB - End EditContact:-13
+2020-04-29 10:06:48,602 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 10:06:48,602 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 10:09:00,840 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 10:09:00,859 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 10:09:00,859 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 10:09:00,861 INFO 11 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 10:09:00,863 INFO 11 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 10:09:00,915 INFO 11 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 10:09:00,948 ERROR 11 Repository.Services.ContactJsonDB - Exception in Delete
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Delete>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 149
+2020-04-29 10:09:00,954 INFO 11 Repository.Services.ContactJsonDB - End Delete:-13
+2020-04-29 10:09:00,954 INFO 11 Repository.Services.ContactJsonDB - End DeleteContact:-13
+2020-04-29 10:09:00,955 INFO 11 EvolentHealthAPICore.Services.Core - End DeleteContact:-13
+2020-04-29 10:09:00,955 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-13
+2020-04-29 10:32:08,125 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-29 10:32:08,142 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-29 10:32:08,142 INFO 10 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-29 10:32:08,143 INFO 10 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-29 10:32:08,146 INFO 10 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-29 10:32:08,150 INFO 10 Repository.Services.ContactJsonDB - Begin Get
+2020-04-29 10:32:08,335 INFO 10 Repository.Services.ContactJsonDB - End Get:0
+2020-04-29 10:32:08,457 INFO 10 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-29 10:32:08,458 INFO 10 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-29 10:32:08,458 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-29 11:51:25,922 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 11:51:25,935 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 11:51:25,936 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 11:51:25,936 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 11:51:25,938 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 11:51:25,973 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 11:51:26,015 INFO 12 Repository.Services.ContactJsonDB - End Add:0
+2020-04-29 11:51:26,015 INFO 12 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-29 11:51:26,015 INFO 12 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-29 11:51:26,016 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-29 11:51:29,841 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 11:51:29,841 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 11:51:29,841 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 11:51:29,841 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 11:51:29,841 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 11:51:29,841 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 11:51:29,842 INFO 10 Repository.Services.ContactJsonDB - End Add:0
+2020-04-29 11:51:29,842 INFO 10 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-29 11:51:29,842 INFO 10 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-29 11:51:29,842 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-29 11:57:18,208 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 11:57:18,221 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 11:57:18,221 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 11:57:18,223 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 11:57:18,225 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 11:57:18,259 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 11:57:18,273 ERROR 10 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 11:57:18,278 INFO 10 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 11:57:18,278 INFO 10 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 11:57:18,279 ERROR 10 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 43
+2020-04-29 11:57:18,280 INFO 10 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 11:57:18,280 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 11:58:55,816 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 11:58:55,831 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 11:58:55,832 INFO 11 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 11:58:55,833 INFO 11 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 11:58:55,836 INFO 11 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 11:58:55,883 INFO 11 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 11:59:12,013 ERROR 11 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 11:59:13,605 INFO 11 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 11:59:17,769 INFO 11 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 11:59:36,444 ERROR 11 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 43
+2020-04-29 11:59:41,364 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 11:59:57,868 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 12:00:08,538 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 12:00:08,551 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 12:00:08,551 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 12:00:08,552 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 12:00:08,554 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 12:00:08,594 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 12:00:08,608 ERROR 10 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 12:00:08,612 INFO 10 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 12:00:08,612 INFO 10 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 12:00:08,613 ERROR 10 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 43
+2020-04-29 12:00:08,613 INFO 10 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 12:00:08,613 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:43:10,503 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:43:10,520 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:43:10,521 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:43:10,523 INFO 13 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:43:10,525 INFO 13 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:43:10,571 INFO 13 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:43:16,665 ERROR 13 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 13:43:18,096 INFO 13 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:43:27,025 INFO 13 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:43:55,332 ERROR 13 EvolentHealthAPICore.Services.Core - Exception in AddContact
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EvolentHealthAPICore.Services.Core.<AddContact>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Server\EvolentHealthAPICore\Services\Core.cs:line 43
+2020-04-29 13:43:55,334 INFO 13 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:43:55,335 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:45:02,253 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:45:02,288 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:45:02,291 INFO 13 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:45:02,295 INFO 13 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:45:02,303 INFO 13 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:45:02,423 INFO 13 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:45:02,473 ERROR 13 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 13:45:02,486 INFO 13 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:45:02,486 INFO 13 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:45:02,487 INFO 13 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:45:02,488 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:45:19,928 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:45:19,929 INFO 16 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:45:19,929 INFO 16 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:45:19,929 INFO 16 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:45:19,929 INFO 16 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:45:19,929 INFO 16 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:45:24,401 ERROR 16 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 13:45:25,245 INFO 16 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:45:28,423 INFO 16 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:45:36,820 INFO 16 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:45:50,244 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:49:54,313 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-29 13:49:54,388 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-29 13:49:54,389 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-29 13:49:54,394 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-29 13:49:54,404 INFO 11 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-29 13:49:54,408 INFO 11 Repository.Services.ContactJsonDB - Begin Get
+2020-04-29 13:49:55,089 INFO 11 Repository.Services.ContactJsonDB - End Get:0
+2020-04-29 13:49:55,331 INFO 11 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-29 13:49:55,332 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-29 13:49:55,332 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-29 13:50:03,135 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 13:50:03,136 INFO 12 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 13:50:03,136 INFO 12 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 13:50:03,138 INFO 12 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 13:50:03,141 INFO 12 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 13:50:03,145 INFO 12 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 13:50:03,192 INFO 11 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-29 13:50:03,193 INFO 11 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-29 13:50:03,193 INFO 11 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-29 13:50:03,193 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-29 13:50:08,464 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-29 13:50:08,464 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-29 13:50:08,464 INFO 11 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-29 13:50:08,464 INFO 11 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-29 13:50:08,464 INFO 11 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-29 13:50:08,464 INFO 11 Repository.Services.ContactJsonDB - Begin Get
+2020-04-29 13:50:08,464 INFO 11 Repository.Services.ContactJsonDB - End Get:0
+2020-04-29 13:50:08,465 INFO 11 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-29 13:50:08,465 INFO 11 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-29 13:50:08,465 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-29 13:50:20,587 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 13:50:20,619 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 13:50:20,620 INFO 9 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 13:50:20,624 INFO 9 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 13:50:20,628 INFO 9 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 13:50:20,708 INFO 9 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 13:50:20,786 ERROR 9 Repository.Services.ContactJsonDB - Exception in Edit
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Edit>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 106
+2020-04-29 13:50:20,820 INFO 9 Repository.Services.ContactJsonDB - End Edit:-13
+2020-04-29 13:50:20,820 INFO 9 Repository.Services.ContactJsonDB - End EditContact:-13
+2020-04-29 13:50:20,821 INFO 9 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 13:50:20,822 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 13:51:00,325 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 13:51:00,325 INFO 13 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 13:51:00,325 INFO 13 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 13:51:00,325 INFO 13 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 13:51:00,325 INFO 13 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 13:51:00,325 INFO 13 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 13:51:00,355 INFO 10 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-29 13:51:00,355 INFO 10 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-29 13:51:00,356 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-29 13:51:00,356 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 13:51:18,267 INFO 13 EvolentHealthAPI.Controllers.ContactsController - Begin GetContacts
+2020-04-29 13:51:18,268 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - Begin Validate
+2020-04-29 13:51:18,268 INFO 13 EvolentHealthAPILib.Messages.GetContactsRequest - End Validate
+2020-04-29 13:51:18,270 INFO 13 EvolentHealthAPICore.Services.Core - Begin GetContacts
+2020-04-29 13:51:18,273 INFO 13 Repository.Services.ContactJsonDB - Begin GetContacts
+2020-04-29 13:51:18,275 INFO 13 Repository.Services.ContactJsonDB - Begin Get
+2020-04-29 13:51:18,292 INFO 13 Repository.Services.ContactJsonDB - End Get:0
+2020-04-29 13:51:18,308 INFO 13 Repository.Services.ContactJsonDB - End GetContacts:0
+2020-04-29 13:51:18,308 INFO 13 EvolentHealthAPICore.Services.Core - End GetContacts:0
+2020-04-29 13:51:18,308 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End GetContacts:0
+2020-04-29 13:51:33,088 INFO 17 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:51:33,089 INFO 17 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:51:33,089 INFO 17 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:51:33,090 INFO 17 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:51:33,093 INFO 17 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:51:33,096 INFO 17 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:51:33,098 ERROR 17 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 13:51:33,099 INFO 17 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:51:33,099 INFO 17 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:51:33,099 INFO 17 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:51:33,099 INFO 17 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:52:48,411 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:52:48,411 INFO 12 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:52:48,411 INFO 12 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:52:48,411 INFO 12 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:52:48,411 INFO 12 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:52:52,330 INFO 12 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:56:22,648 ERROR 12 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 57
+2020-04-29 13:56:22,648 INFO 12 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:56:22,648 INFO 12 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:56:22,648 INFO 12 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:56:22,648 INFO 12 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:58:03,782 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:58:03,815 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:58:03,816 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:58:03,818 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:58:03,822 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:58:06,121 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:58:14,143 INFO 11 Repository.Services.ContactJsonDB - End Add:0
+2020-04-29 13:58:14,144 INFO 11 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-29 13:58:14,147 INFO 11 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-29 13:58:14,149 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-29 13:58:23,002 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 13:58:23,003 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 13:58:23,003 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 13:58:23,003 INFO 10 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 13:58:23,003 INFO 10 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 13:58:26,246 INFO 10 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 13:58:31,552 ERROR 10 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 41
+2020-04-29 13:58:31,561 INFO 10 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 13:58:31,561 INFO 10 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 13:58:31,561 INFO 10 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 13:58:31,561 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 13:58:55,612 INFO 14 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 13:58:55,612 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 13:58:55,612 INFO 14 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 13:58:55,614 INFO 14 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 13:58:55,616 INFO 14 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 13:58:55,619 INFO 14 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 13:58:55,625 INFO 5 Repository.Services.ContactJsonDB - End Edit:0
+2020-04-29 13:58:55,626 INFO 5 Repository.Services.ContactJsonDB - End EditContact:0
+2020-04-29 13:58:55,626 INFO 5 EvolentHealthAPICore.Services.Core - End EditContact:0
+2020-04-29 13:58:55,626 INFO 5 EvolentHealthAPI.Controllers.ContactsController - End EditContact:0
+2020-04-29 13:59:04,524 INFO 5 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 13:59:04,524 INFO 5 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 13:59:04,524 INFO 5 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 13:59:04,525 INFO 5 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 13:59:04,529 INFO 5 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 13:59:04,532 INFO 5 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 13:59:04,538 INFO 15 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-29 13:59:04,538 INFO 15 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-29 13:59:04,538 INFO 15 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-29 13:59:04,538 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-29 13:59:10,427 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 13:59:10,427 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 13:59:10,428 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 13:59:10,428 INFO 10 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 13:59:10,428 INFO 10 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 13:59:10,428 INFO 10 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 13:59:10,429 INFO 14 Repository.Services.ContactJsonDB - End Delete:0
+2020-04-29 13:59:10,429 INFO 14 Repository.Services.ContactJsonDB - End DeleteContact:0
+2020-04-29 13:59:10,430 INFO 14 EvolentHealthAPICore.Services.Core - End DeleteContact:0
+2020-04-29 13:59:10,430 INFO 14 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:0
+2020-04-29 14:02:28,814 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 14:02:28,885 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 14:02:28,886 INFO 11 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 14:02:28,893 INFO 11 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 14:02:28,903 INFO 11 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 14:02:29,107 INFO 11 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 14:02:29,241 ERROR 11 Repository.Services.ContactJsonDB - Exception in Delete
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Delete>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 159
+2020-04-29 14:02:29,271 INFO 11 Repository.Services.ContactJsonDB - End Delete:-13
+2020-04-29 14:02:29,271 INFO 11 Repository.Services.ContactJsonDB - End DeleteContact:-13
+2020-04-29 14:02:29,272 INFO 11 EvolentHealthAPICore.Services.Core - End DeleteContact:-13
+2020-04-29 14:02:29,272 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-13
+2020-04-29 14:05:09,192 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 14:05:09,193 INFO 9 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 14:05:09,193 INFO 9 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 14:05:09,195 INFO 9 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 14:05:09,198 INFO 9 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 14:05:09,201 INFO 9 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 14:05:09,205 ERROR 9 Repository.Services.ContactJsonDB - Exception in Add
+System.Exception: Email Address already Exists
+   at Repository.Services.JsonDB.<Add>d__3.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 41
+2020-04-29 14:05:09,206 INFO 9 Repository.Services.ContactJsonDB - End Add:-13
+2020-04-29 14:05:09,206 INFO 9 Repository.Services.ContactJsonDB - End AddContact:-13
+2020-04-29 14:05:09,206 INFO 9 EvolentHealthAPICore.Services.Core - End AddContact:-13
+2020-04-29 14:05:09,206 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-13
+2020-04-29 14:18:52,947 INFO 15 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 14:18:53,023 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 14:18:53,025 INFO 15 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 14:18:53,030 INFO 15 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 14:18:53,043 INFO 15 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 14:18:53,267 INFO 15 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 14:18:53,388 ERROR 15 Repository.Services.ContactJsonDB - Exception in Edit
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Edit>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 106
+2020-04-29 14:18:53,418 INFO 15 Repository.Services.ContactJsonDB - End Edit:-13
+2020-04-29 14:18:53,418 INFO 15 Repository.Services.ContactJsonDB - End EditContact:-13
+2020-04-29 14:18:53,419 INFO 15 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 14:18:53,419 INFO 15 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 14:26:27,055 INFO 16 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 14:26:27,087 INFO 16 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 14:26:27,089 ERROR 16 EvolentHealthAPILib.Messages.AddContactRequest - FirstName is empty.InValid Email Address.
+2020-04-29 14:26:27,089 INFO 16 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 14:26:27,089 INFO 16 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-12
+2020-04-29 14:27:47,640 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 14:27:47,665 ERROR 10 EvolentHealthAPI.Controllers.ContactsController - NULL Request object
+
+2020-04-29 14:27:47,665 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-11
+2020-04-29 14:34:15,241 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 14:34:15,269 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 14:34:15,269 ERROR 10 EvolentHealthAPILib.Messages.AddContactRequest - InValid Email Address.
+2020-04-29 14:34:15,269 INFO 10 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 14:34:15,269 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End AddContact:-12
+2020-04-29 14:34:28,262 INFO 12 EvolentHealthAPI.Controllers.ContactsController - Begin AddContact
+2020-04-29 14:34:28,262 INFO 12 EvolentHealthAPILib.Messages.AddContactRequest - Begin Validate
+2020-04-29 14:34:28,262 INFO 12 EvolentHealthAPILib.Messages.AddContactRequest - End Validate
+2020-04-29 14:34:28,264 INFO 12 EvolentHealthAPICore.Services.Core - Begin AddContact
+2020-04-29 14:34:28,268 INFO 12 Repository.Services.ContactJsonDB - Begin AddContact
+2020-04-29 14:34:28,280 INFO 12 Repository.Services.ContactJsonDB - Begin Add
+2020-04-29 14:34:28,372 INFO 13 Repository.Services.ContactJsonDB - End Add:0
+2020-04-29 14:34:28,372 INFO 13 Repository.Services.ContactJsonDB - End AddContact:0
+2020-04-29 14:34:28,372 INFO 13 EvolentHealthAPICore.Services.Core - End AddContact:0
+2020-04-29 14:34:28,373 INFO 13 EvolentHealthAPI.Controllers.ContactsController - End AddContact:0
+2020-04-29 14:40:10,040 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 14:40:10,120 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 14:40:10,124 ERROR 10 EvolentHealthAPILib.Messages.EditContactRequest - Invalid Contact ID.FirstName is empty.InValid Email Address.
+2020-04-29 14:40:10,124 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 14:40:10,124 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-12
+2020-04-29 14:42:23,078 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 14:42:23,110 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 14:42:23,111 INFO 10 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 14:42:23,113 INFO 10 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 14:42:23,116 INFO 10 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 14:42:23,187 INFO 10 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 14:42:23,242 ERROR 10 Repository.Services.ContactJsonDB - Exception in Edit
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Edit>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 106
+2020-04-29 14:42:23,253 INFO 10 Repository.Services.ContactJsonDB - End Edit:-13
+2020-04-29 14:42:23,253 INFO 10 Repository.Services.ContactJsonDB - End EditContact:-13
+2020-04-29 14:42:23,253 INFO 10 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 14:42:23,253 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 14:46:01,501 INFO 11 EvolentHealthAPI.Controllers.ContactsController - Begin EditContact
+2020-04-29 14:46:01,573 INFO 11 EvolentHealthAPILib.Messages.EditContactRequest - Begin Validate
+2020-04-29 14:46:01,576 INFO 11 EvolentHealthAPILib.Messages.EditContactRequest - End Validate
+2020-04-29 14:46:01,582 INFO 11 EvolentHealthAPICore.Services.Core - Begin EditContact
+2020-04-29 14:46:01,596 INFO 11 Repository.Services.ContactJsonDB - Begin EditContact
+2020-04-29 14:46:18,106 INFO 11 Repository.Services.ContactJsonDB - Begin Edit
+2020-04-29 14:46:51,621 ERROR 11 Repository.Services.ContactJsonDB - Exception in Edit
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Edit>d__4.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 106
+2020-04-29 14:46:53,387 INFO 11 Repository.Services.ContactJsonDB - End Edit:-13
+2020-04-29 14:46:58,952 INFO 11 Repository.Services.ContactJsonDB - End EditContact:-13
+2020-04-29 14:47:17,027 INFO 11 EvolentHealthAPICore.Services.Core - End EditContact:-13
+2020-04-29 14:47:37,982 INFO 11 EvolentHealthAPI.Controllers.ContactsController - End EditContact:-13
+2020-04-29 15:07:39,134 INFO 9 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 15:07:39,161 INFO 9 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 15:07:39,161 INFO 9 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 15:07:39,163 INFO 9 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 15:07:39,166 INFO 9 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 15:07:39,254 INFO 9 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 15:07:39,307 ERROR 9 Repository.Services.ContactJsonDB - Exception in Delete
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Delete>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 159
+2020-04-29 15:07:39,318 INFO 9 Repository.Services.ContactJsonDB - End Delete:-13
+2020-04-29 15:07:39,318 INFO 9 Repository.Services.ContactJsonDB - End DeleteContact:-13
+2020-04-29 15:07:39,319 INFO 9 EvolentHealthAPICore.Services.Core - End DeleteContact:-13
+2020-04-29 15:07:39,319 INFO 9 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-13
+2020-04-29 15:11:36,146 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 15:11:36,169 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 15:11:36,170 ERROR 10 EvolentHealthAPILib.Messages.DeleteContactRequest - InValid Contact ID.
+2020-04-29 15:11:36,170 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 15:11:36,170 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-12
+2020-04-29 15:14:32,192 INFO 10 EvolentHealthAPI.Controllers.ContactsController - Begin DeleteContact
+2020-04-29 15:14:32,236 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - Begin Validate
+2020-04-29 15:14:32,237 INFO 10 EvolentHealthAPILib.Messages.DeleteContactRequest - End Validate
+2020-04-29 15:14:32,241 INFO 10 EvolentHealthAPICore.Services.Core - Begin DeleteContact
+2020-04-29 15:14:32,245 INFO 10 Repository.Services.ContactJsonDB - Begin DeleteContact
+2020-04-29 15:14:32,343 INFO 10 Repository.Services.ContactJsonDB - Begin Delete
+2020-04-29 15:14:32,420 ERROR 10 Repository.Services.ContactJsonDB - Exception in Delete
+System.Exception: Row not found
+   at Repository.Services.JsonDB.<Delete>d__5.MoveNext() in D:\Projects\EvolentHealthExercise\Src\Lib\Repository\Services\JsonDB.cs:line 159
+2020-04-29 15:14:32,447 INFO 10 Repository.Services.ContactJsonDB - End Delete:-13
+2020-04-29 15:14:32,447 INFO 10 Repository.Services.ContactJsonDB - End DeleteContact:-13
+2020-04-29 15:14:32,448 INFO 10 EvolentHealthAPICore.Services.Core - End DeleteContact:-13
+2020-04-29 15:14:32,448 INFO 10 EvolentHealthAPI.Controllers.ContactsController - End DeleteContact:-13
