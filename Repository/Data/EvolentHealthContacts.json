@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "fn": "Vijay",
+      "ln": "Lonkar",
+      "mid": "vijaylonkar@gmail.com",
+      "pn": "+91 904.945.1060",
+      "st": 1
+    },
+    {
+      "id": 2,
+      "fn": "Vijay2Edited",
+      "ln": "Lonkar2Edited",
+      "mid": "v.l2@gmail.com",
+      "pn": "+91 210.111.111",
+      "st": 0
+    },
+    {
+      "id": 3,
+      "fn": "Vijay3",
+      "ln": "Lonkar3",
+      "mid": "v.l3@gmail.com",
+      "pn": "+91 310.111.111",
+      "st": 0
+    },
+    {
+      "id": 4,
+      "fn": "Vijay4",
+      "ln": "Lonkar4",
+      "mid": "v.l4@gmail.com",
+      "pn": "+91 411.111.111",
+      "st": 1
+    },
+    {
+      "id": 5,
+      "fn": "Vijay6",
+      "ln": "Lonkar6",
+      "mid": "v.l6@gmail.com",
+      "pn": "+91 611.111.111",
+      "st": 1
+    }
+  ]
+}
