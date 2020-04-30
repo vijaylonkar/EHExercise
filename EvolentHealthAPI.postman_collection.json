@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "2dca50b5-e2c2-426e-99f2-a718c16ac8c8",
+		"name": "EvolentHealthAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddContact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\tfn:\"Vijay\",\n\tmid:\"@@\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/EvolentHealthAPI/API/Contacts/AddContact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EvolentHealthAPI",
+						"API",
+						"Contacts",
+						"AddContact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditContact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fn\": \"Vijay2Edited\",\n    \"ln\": \"Lonkar2Edited\",\n    \"mid\": \"v.l2@gmail.com\",\n    \"pn\": \"+91 210.111.111\",\n    \"st\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/EvolentHealthAPI/API/Contacts/EditContact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EvolentHealthAPI",
+						"API",
+						"Contacts",
+						"EditContact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 2,\n    \"fn\": \"Vijay1\",\n    \"ln\": \"Lonkar1\",\n    \"mid\": \"v.l1gmail.com\",\n    \"pn\": \"+91 111.111.111\",\n    \"st\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/EvolentHealthAPI/API/Contacts/EditContact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EvolentHealthAPI",
+						"API",
+						"Contacts",
+						"EditContact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contacts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 2,\n    \"fn\": \"Vijay1\",\n    \"ln\": \"Lonkar1\",\n    \"mid\": \"v.l1gmail.com\",\n    \"pn\": \"+91 111.111.111\",\n    \"st\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/EvolentHealthAPI/API/Contacts/EditContact",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"EvolentHealthAPI",
+						"API",
+						"Contacts",
+						"EditContact"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
